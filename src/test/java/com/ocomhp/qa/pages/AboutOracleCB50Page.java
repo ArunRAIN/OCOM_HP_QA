@@ -55,7 +55,7 @@ public class AboutOracleCB50Page extends PageObject
 	public void click_feature_area() throws IOException
 	{
 		List<WebElement> ele = getDriver().findElements(By.xpath("//div[@class='cb50w1 cwidth']//li"));
-		//System.err.println(ele +"hi");
+		System.err.println(ele +"hi");
 		 String url = getDriver().getCurrentUrl();
 		for(int i=0;i<ele.size();i++)
 		{
