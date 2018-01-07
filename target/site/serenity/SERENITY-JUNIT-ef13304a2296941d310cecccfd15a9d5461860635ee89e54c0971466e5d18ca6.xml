@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="About Oracle CB50" skipped="0" tests="2" time="106.06" timestamp="2018-01-07T16:58:17.333+05:30[Asia/Calcutta]"><testcase name="Oracle CB50 - Featured area"/><testcase name="Oracle CB50 - Featured area Page"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+com.webtech.qa.pages.AboutOracleCB50Page.is_expected_page(AboutOracleCB50Page.java:92)&#13;
+com.webtech.qa.pages.AboutOracleCB50Page.click_feature_area(AboutOracleCB50Page.java:69)&#13;
+com.webtech.qa.steps.serenity.AboutOracleCB50Steps.is_expected_page(AboutOracleCB50Steps.java:40)&#13;
+com.webtech.qa.steps.AboutOracleCB50Definition.Usermustnavigatetothefeaturedpage(AboutOracleCB50Definition.java:41)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.webtech.qa.AcceptanceTestSuite
+-------------------------------------------------------------------------------
+Tests run: 81, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1,191.784 sec <<< FAILURE! - in com.webtech.qa.AcceptanceTestSuite
+Then User must navigate to the featured page(com.webtech.qa.steps.AboutOracleCB50Definition)  Time elapsed: 40.28 sec  <<< FAILURE!
+java.lang.AssertionError
+	at com.webtech.qa.steps.AboutOracleCB50Definition.Usermustnavigatetothefeaturedpage(AboutOracleCB50Definition.java:41)
+
+Scenario: Oracle CB50 - Featured area Page  Time elapsed: 40.3 sec  <<< FAILURE!
+java.lang.AssertionError: scenario failed!
+
+AboutOracleCB50.story  Time elapsed: 42.15 sec  <<< FAILURE!
+java.lang.AssertionError: story failed!
+

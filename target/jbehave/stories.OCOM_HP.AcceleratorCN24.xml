@@ -1,0 +1,36 @@
+<story path="stories/OCOM_HP/AcceleratorCN24.story" title="AcceleratorCN24">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">view popular OCOM page links</inOrderTo>
+  <asA keyword="As a">user</asA>
+  <iWantTo keyword="I want to">see the “Top Action” links
+
+eta:@skip</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Top Actions - Scroll down the page to view Top Actions">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When User scrolls down</step>
+<step outcome="successful">Then User must see top actions links</step>
+</scenario>
+<scenario keyword="Scenario:" title="Top Actions - links and icons">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When User view accelerator</step>
+<step outcome="successful">Then each top actions must have an icon and label below it</step>
+</scenario>
+<scenario keyword="Scenario:" title="Top Actions - “More” menu">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When User hovers over &apos;More&apos; menu</step>
+<step outcome="successful">Then menu dropdown panel must open showing options</step>
+</scenario>
+<scenario keyword="Scenario:" title="Top Actions – expanded “More” menu">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When User hovers over &apos;More&apos; menu</step>
+<step outcome="successful">Then User clicks option on menu</step>
+<step outcome="successful">Then User checks must navigate to appropriate page</step>
+</scenario>
+<scenario keyword="Scenario:" title="Top Actions – hover over state - “More” menu">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When User hovers over &apos;More&apos; menu</step>
+<step outcome="successful">Then User points the mouse away from the dropdown</step>
+<step outcome="successful">Then the dropdown panel must close</step>
+</scenario>
+</story>

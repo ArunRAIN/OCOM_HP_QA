@@ -1,0 +1,5 @@
+com\webtech\qa\pages\SegmentDivingCB25v2Page.class
+com\webtech\qa\steps\AboutOracleCB50Definition.class
+com\webtech\qa\steps\serenity\AboutOracleCB50Steps.class
+com\webtech\qa\pages\DemandSupportCB27v4Page.class
+com\webtech\qa\pages\AboutOracleCB50Page.class

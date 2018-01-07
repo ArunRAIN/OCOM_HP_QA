@@ -1,0 +1,10 @@
+#org.jbehave.core.embedder.StoryManager
+#Sun Jan 07 17:35:29 IST 2018
+stories/OCOM_HP/SegmentDivingCB25v2.story=137000
+stories/OCOM_HP/CarouselBannerHP10.story=610000
+threads=1
+total=1180000
+stories/OCOM_HP/DemandSupportCB27v4.story=114000
+stories/OCOM_HP/AcceleratorCN24.story=209000
+stories/OCOM_HP/AboutOracleCB50.story=110000
+threadAverage=1180000

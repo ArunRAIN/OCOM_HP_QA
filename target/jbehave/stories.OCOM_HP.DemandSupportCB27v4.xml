@@ -1,0 +1,19 @@
+<story path="stories/OCOM_HP/DemandSupportCB27v4.story" title="DemandSupportCB27v4">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">navigate to an event page</inOrderTo>
+  <asA keyword="As a">user</asA>
+  <iWantTo keyword="I want to">click on the CTA button
+
+eta:@skip</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="CTA Background color">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When User hover on CTA button</step>
+<step outcome="successful">Then User must see backgroundcolor change to white</step>
+</scenario>
+<scenario keyword="Scenario:" title="Navigate to event page">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When User clicks on CTA button</step>
+<step outcome="successful">Then User must navigate to the events page</step>
+</scenario>
+</story>

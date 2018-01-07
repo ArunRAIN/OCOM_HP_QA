@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CarouselBannerHP10","Carousel Banner - View each story slide","SUCCESS","2018-01-07T17:02:33.698+05:30[Asia/Calcutta]","0.0","255.92"
+"CarouselBannerHP10","Carousel Banner - Stories auto rotate","SUCCESS","2018-01-07T17:06:49.960+05:30[Asia/Calcutta]","0.0","22.38"
+"CarouselBannerHP10","Carousel Banner - Navigate through stories using nav arrows","SUCCESS","2018-01-07T17:07:12.578+05:30[Asia/Calcutta]","0.0","35.37"
+"CarouselBannerHP10","Carousel Banner - Nav arrows - Hover over state","SUCCESS","2018-01-07T17:07:48.171+05:30[Asia/Calcutta]","0.0","31.07"
+"CarouselBannerHP10","Carousel Banner - Place dots - Hover over state","SUCCESS","2018-01-07T17:08:19.496+05:30[Asia/Calcutta]","0.0","21.44"
+"CarouselBannerHP10","Carousel Banner - CTA button - Hover over state","SUCCESS","2018-01-07T17:08:41.156+05:30[Asia/Calcutta]","0.0","28.22"

@@ -1,0 +1,40 @@
+<story path="stories/OCOM_HP/AboutOracleCB50.story" title="About Oracle CB50">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">know about Oracle</inOrderTo>
+  <asA keyword="As a">user</asA>
+  <iWantTo keyword="I want to">see 4 featured areas
+
+eta:@skip</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Oracle CB50 - Featured area">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When User navigates to About Oracle</step>
+<step outcome="successful">Then User must see 4 featured areas</step>
+</scenario>
+<scenario keyword="Scenario:" title="Oracle CB50 - Featured area Page">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When User see featured area</step>
+<step outcome="failed" keyword="FAILED">Then User must navigate to the featured page<failure>java.lang.AssertionError</failure></step>
+<failure>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.webtech.qa.pages.AboutOracleCB50Page.is_expected_page(AboutOracleCB50Page.java:92)
+	at com.webtech.qa.pages.AboutOracleCB50Page.click_feature_area(AboutOracleCB50Page.java:69)
+	at com.webtech.qa.steps.serenity.AboutOracleCB50Steps.is_expected_page(AboutOracleCB50Steps.java:40)
+	at com.webtech.qa.steps.serenity.AboutOracleCB50Steps$$EnhancerByCGLIB$$6b85b041.CGLIB$is_expected_page$3(&lt;generated&gt;)
+	at com.webtech.qa.steps.serenity.AboutOracleCB50Steps$$EnhancerByCGLIB$$6b85b041$$FastClassByCGLIB$$df2b8f43.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.webtech.qa.steps.serenity.AboutOracleCB50Steps$$EnhancerByCGLIB$$6b85b041.is_expected_page(&lt;generated&gt;)
+	at com.webtech.qa.steps.AboutOracleCB50Definition.Usermustnavigatetothefeaturedpage(AboutOracleCB50Definition.java:41)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</failure>
+</scenario>
+</story>

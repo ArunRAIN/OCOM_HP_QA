@@ -1,0 +1,43 @@
+<story path="stories/OCOM_HP/CarouselBannerHP10.story" title="CarouselBannerHP10">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">view stories</inOrderTo>
+  <asA keyword="As a">user</asA>
+  <iWantTo keyword="I want to">view slides auto rotating
+
+eta:@skip</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Carousel Banner - View each story slide">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When User see 3 or more than 3 story slides</step>
+<step outcome="successful">Then User clicks on CTA in each slide in the story slide must navigate to appropriate page</step>
+</scenario>
+<scenario keyword="Scenario:" title="Carousel Banner - Stories auto rotate">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When Story slide is in view</step>
+<step outcome="successful">Then corresponding place dot turn red in color</step>
+</scenario>
+<scenario keyword="Scenario:" title="Carousel Banner - Navigate through stories using nav arrows">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When User clicks on the left nav arrows</step>
+<step outcome="successful">Then slide navigates to previous story</step>
+<step outcome="successful">When User clicks on the right nav arrows</step>
+<step outcome="successful">Then slide navigates to next story</step>
+</scenario>
+<scenario keyword="Scenario:" title="Carousel Banner - Nav arrows - Hover over state">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When User hovers over left nav arrows</step>
+<step outcome="successful">Then User see the background of the arrow must turn gray</step>
+<step outcome="successful">Then User hovers over right nav arrows also</step>
+<step outcome="successful">Then User see the background of the arrow must turn Gray</step>
+</scenario>
+<scenario keyword="Scenario:" title="Carousel Banner - Place dots - Hover over state">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When User hovers over place dots</step>
+<step outcome="successful">Then place dot must turn white in color</step>
+</scenario>
+<scenario keyword="Scenario:" title="Carousel Banner - CTA button - Hover over state">
+<step outcome="successful">Given User on the home page</step>
+<step outcome="successful">When User hovers over CTA button</step>
+<step outcome="successful">Then User see the background of the button must turn blue in color</step>
+</scenario>
+</story>
